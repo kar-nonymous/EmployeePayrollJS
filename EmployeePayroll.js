@@ -98,7 +98,6 @@
             return "Id=" + this.id + ", Name=" + this.name + ", Salary=" + this.salary + ", Gender=" + this.gender + ", StartDate=" + empDate;
         }
     }
-    //Other two fields will be undefined when not initialised in constructor
     let employeePayrollData = new EmployeePayrollData(1, "Mark", 30000);
     console.log("UC-13: " + employeePayrollData.toString());
     let newEmployeePayrollData = new EmployeePayrollData(2, "Terissa", 40000, 'F', new Date());
